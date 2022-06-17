@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-In this analysis, we examine voting data to [     ]. The aim of this project, given by a Colorado Board of Elections employee, is to accomplish the following:
+In this analysis, we examine election data in order to automate the process of analyzing the data. The aim of this project, given by a Colorado Board of Elections employee, is to accomplish the following:
 
 1. Calculate the total number of votes cast.
 2. Compile a complete list of candidates who received votes.
@@ -34,5 +34,16 @@ The goal of this part of the analysis was to acheive the following:
 1. Calculate the voter turnout for each county.
 2. Calculate the percentage of votes from each county and the total count.
 3. Find the county with the highest turnout.
+
+## Challenge Results
+From the analysis, we found:
+- The voter turnout for each of the counties are as follows:
+  - Jefferson: with 38,855 votes cast, 10.5% of overall turnout.
+  - Denver: with 306,055 votes cast, 82.8% of overall turnout.
+  - Arapahoe: with 24,801 votes cast,  6.7% of overall turnout.
+- The county with the highest voter turnout was found to be Denver
+
+The summary of the voter analysis can be seen in the text file within the analysis folder here, and is also depicted below.
+
 
 ## Challenge Summary

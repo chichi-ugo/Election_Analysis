@@ -29,5 +29,10 @@ From our analysis, we have determined that:
 
 
 ## Challenge Overview
+The goal of this part of the analysis was to acheive the following:
+
+1. Calculate the voter turnout for each county.
+2. Calculate the percentage of votes from each county and the total count.
+3. Find the county with the highest turnout.
 
 ## Challenge Summary

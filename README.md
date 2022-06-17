@@ -38,12 +38,22 @@ The goal of this part of the analysis was to acheive the following:
 ## Challenge Results
 From the analysis, we found:
 - The voter turnout for each of the counties are as follows:
-  - Jefferson: with 38,855 votes cast, 10.5% of overall turnout.
-  - Denver: with 306,055 votes cast, 82.8% of overall turnout.
-  - Arapahoe: with 24,801 votes cast,  6.7% of overall turnout.
+  - Jefferson: with 38,855 votes cast, 10.5% of the overall turnout.
+  - Denver: with 306,055 votes cast, 82.8% of the overall turnout.
+  - Arapahoe: with 24,801 votes cast,  6.7% the of overall turnout.
 - The county with the highest voter turnout was found to be Denver
 
-The summary of the voter analysis can be seen in the text file within the analysis folder here, and is also depicted below.
-[!Election Results Summary](https://github.com/chichi-ugo/election_analysis/blob/main/Resources/election_results_txt.png?raw=true)
+The summary of the voter analysis can be seen in the election_analysis text file within the analysis folder [here](https://github.com/chichi-ugo/election_analysis/blob/main/analysis/election_analysis.txt), and is also depicted below.
+
+![Election Results Summary](https://github.com/chichi-ugo/election_analysis/blob/main/Resources/election_results_txt.png?raw=true)
 
 ## Challenge Summary
+Overall, the script was able to acheive the goals of this analysis and has the potential to be modified to be used for any election.
+- One modification that would need to be made is to review the headers of your unique csv file and change the index numbers as needed to ensure that the correct information is being stored. This is in relation to this section near the begining of the script:
+```
+    # Get candidate's name from each row
+    candidate_name = row[2]
+    # 3: Extract the county name from each row.
+    county_name = row[1]
+```
+- Another modification to be made in the script is in changing some of the variables (adding new ones or taking away some) to accomdate for elections at varying levels of goverenment. Where here we looked particularly between counties, it can be modifed to accommodate state wide elections as well.

@@ -44,6 +44,6 @@ From the analysis, we found:
 - The county with the highest voter turnout was found to be Denver
 
 The summary of the voter analysis can be seen in the text file within the analysis folder here, and is also depicted below.
-
+[!Election Results Summary](https://github.com/chichi-ugo/election_analysis/blob/main/Resources/election_results_txt.png?raw=true)
 
 ## Challenge Summary
